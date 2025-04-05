@@ -1,0 +1,101 @@
+YAML
+
+
+yaml Aint Markup Lang
+yaml is data serialization language
+
+
+indentation
+NO TABS, space bar
+
+  
+=========================
+Scaler
+=========================
+key: value
+
+name: shubham
+a: 46
+car: bmw
+
+=========================
+Dictionary/ map
+=========================
+key:
+  arti1: value
+  arti2: value
+  arti3: value
+
+car:
+  name: bmw
+  color: red
+  engine: 5L
+
+
+
+=========================
+List/ Array
+=========================
+keys:
+  - value1
+  - value2
+  - value3 
+ 
+cars:
+  - bmw
+  - tesla
+  - honda
+  
+
+  
+cars:
+  - bmw
+      color: red
+      engine: 5L
+  - tesla
+      color: green
+      engine: 8L
+  - honda
+      color: yellow
+      engine: 4L
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
