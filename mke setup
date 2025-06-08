@@ -1,0 +1,21 @@
+
+    1  ssh-keygen
+    2  ssh-copy-id devops@10.128.0.6
+    3  ssh-copy-id devops@10.128.0.7
+    4  wget https://github.com/Mirantis/launchpad/releases/download/1.2.0-rc.1/launchpad-linux-x64
+    5  ls -ltr
+    6  mv launchpad-linux-x64 launchpad
+    7  ls -ltr
+    8  sudo chmod +x launchpad
+    9  export PATH=$PATH:/home/devops/launchpad
+   10  ./launchpad version
+   11  ./launchpad register
+   12  ./launchpad init > launchpad.yaml
+   13  mv launchpad.yaml launchpad.yaml.orig
+   14  vi launchpad.yaml
+   15  ./launchpad apply
+   16  vi /home/devops/.mirantis-launchpad/cluster/my-mke-cluster/apply.log
+   17  vi launchpad.yaml
+   18  ./launchpad version
+   19  ./launchpad register
+   20  ./launchpad apply
